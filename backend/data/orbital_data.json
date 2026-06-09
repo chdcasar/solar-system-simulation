@@ -1,0 +1,651 @@
+{
+  "sun": {
+    "name": "Sun",
+    "type": "star",
+    "mass": 1.0,
+    "radius": 0.004649,
+    "color": "#FDB813",
+    "luminosity": 1.0,
+    "position": [0, 0, 0],
+    "velocity": [0, 0, 0]
+  },
+  "planets": {
+    "mercury": {
+      "name": "Mercury",
+      "type": "terrestrial",
+      "mass": 0.0553,
+      "radius": 0.0000383,
+      "color": "#8C7853",
+      "orbital_elements": {
+        "a": 0.38709927,
+        "e": 0.20563593,
+        "i": 7.00497902,
+        "Omega": 48.33076593,
+        "omega": 77.45779628,
+        "M0": 252.74902154,
+        "epoch": 2451545.0,
+        "n": 4.09233864
+      }
+    },
+    "venus": {
+      "name": "Venus",
+      "type": "terrestrial",
+      "mass": 0.815,
+      "radius": 0.00949,
+      "color": "#FFC649",
+      "orbital_elements": {
+        "a": 0.72333566,
+        "e": 0.00677672,
+        "i": 3.39467605,
+        "Omega": 76.67992019,
+        "omega": 131.60246718,
+        "M0": 181.97909950,
+        "epoch": 2451545.0,
+        "n": 1.60214299
+      }
+    },
+    "earth": {
+      "name": "Earth",
+      "type": "terrestrial",
+      "mass": 1.0,
+      "radius": 0.00000426,
+      "color": "#4A90E2",
+      "orbital_elements": {
+        "a": 1.00000261,
+        "e": 0.01674863,
+        "i": -0.00005300,
+        "Omega": -11.26064,
+        "omega": 102.94719,
+        "M0": 100.46457166,
+        "epoch": 2451545.0,
+        "n": 0.98560028
+      }
+    },
+    "mars": {
+      "name": "Mars",
+      "type": "terrestrial",
+      "mass": 0.107,
+      "radius": 0.00000227,
+      "color": "#E27B58",
+      "orbital_elements": {
+        "a": 1.52371034,
+        "e": 0.09339410,
+        "i": 1.84969142,
+        "Omega": 49.55953891,
+        "omega": 336.04084765,
+        "M0": 355.45332160,
+        "epoch": 2451545.0,
+        "n": 0.52402068
+      }
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "type": "gas_giant",
+      "mass": 318.0,
+      "radius": 0.0000474,
+      "color": "#C88B3A",
+      "orbital_elements": {
+        "a": 5.20288700,
+        "e": 0.04838624,
+        "i": 1.30439695,
+        "Omega": 100.47390909,
+        "omega": 14.72847331,
+        "M0": 34.40438627,
+        "epoch": 2451545.0,
+        "n": 0.08308529
+      }
+    },
+    "saturn": {
+      "name": "Saturn",
+      "type": "gas_giant",
+      "mass": 95.0,
+      "radius": 0.0000402,
+      "color": "#FAD5A5",
+      "orbital_elements": {
+        "a": 9.53667594,
+        "e": 0.05386179,
+        "i": 2.48599135,
+        "Omega": 113.66242448,
+        "omega": 92.59887831,
+        "M0": 49.95424423,
+        "epoch": 2451545.0,
+        "n": 0.03393631
+      }
+    },
+    "uranus": {
+      "name": "Uranus",
+      "type": "ice_giant",
+      "mass": 14.5,
+      "radius": 0.0000191,
+      "color": "#4FD0E7",
+      "orbital_elements": {
+        "a": 19.18916464,
+        "e": 0.04725744,
+        "i": 0.77263783,
+        "Omega": 74.01692503,
+        "omega": 170.95427630,
+        "M0": 313.23810451,
+        "epoch": 2451545.0,
+        "n": 0.01176904
+      }
+    },
+    "neptune": {
+      "name": "Neptune",
+      "type": "ice_giant",
+      "mass": 17.1,
+      "radius": 0.0000184,
+      "color": "#4166F5",
+      "orbital_elements": {
+        "a": 30.06992276,
+        "e": 0.00859048,
+        "i": 1.77004431,
+        "Omega": 131.72169164,
+        "omega": 44.97135702,
+        "M0": 304.88003352,
+        "epoch": 2451545.0,
+        "n": 0.00601308
+      }
+    }
+  },
+  "moons": {
+    "earth_moon": {
+      "name": "Moon",
+      "parent": "earth",
+      "type": "moon",
+      "mass": 0.0123,
+      "radius": 0.0000116,
+      "color": "#CCCCCC",
+      "orbital_elements": {
+        "a": 0.00257,
+        "e": 0.0554,
+        "i": 5.16,
+        "Omega": 125.08,
+        "omega": 318.15,
+        "M0": 135.27,
+        "epoch": 2451545.0,
+        "n": 13.2555
+      }
+    },
+    "mars_phobos": {
+      "name": "Phobos",
+      "parent": "mars",
+      "type": "moon",
+      "mass": 0.0000001,
+      "radius": 0.0000011,
+      "color": "#999999",
+      "orbital_elements": {
+        "a": 0.00627,
+        "e": 0.0151,
+        "i": 1.093,
+        "Omega": 164.87,
+        "omega": 150.27,
+        "M0": 92.6,
+        "epoch": 2451545.0,
+        "n": 18.2757
+      }
+    },
+    "mars_deimos": {
+      "name": "Deimos",
+      "parent": "mars",
+      "type": "moon",
+      "mass": 0.00000002,
+      "radius": 0.00000065,
+      "color": "#AAAAAA",
+      "orbital_elements": {
+        "a": 0.01463,
+        "e": 0.00033,
+        "i": 0.3,
+        "Omega": 169.88,
+        "omega": 290.29,
+        "M0": 5.3,
+        "epoch": 2451545.0,
+        "n": 1.2650
+      }
+    },
+    "jupiter_io": {
+      "name": "Io",
+      "parent": "jupiter",
+      "type": "moon",
+      "mass": 0.0150,
+      "radius": 0.00000286,
+      "color": "#FFD700",
+      "orbital_elements": {
+        "a": 0.00283,
+        "e": 0.0041,
+        "i": 0.05,
+        "Omega": 84.49,
+        "omega": 82.14,
+        "M0": 203.48,
+        "epoch": 2451545.0,
+        "n": 203.4889
+      }
+    },
+    "jupiter_europa": {
+      "name": "Europa",
+      "parent": "jupiter",
+      "type": "moon",
+      "mass": 0.0080,
+      "radius": 0.00000245,
+      "color": "#D3D3D3",
+      "orbital_elements": {
+        "a": 0.00449,
+        "e": 0.0094,
+        "i": 0.47,
+        "Omega": 219.62,
+        "omega": 176.88,
+        "M0": 44.04,
+        "epoch": 2451545.0,
+        "n": 101.3747
+      }
+    },
+    "jupiter_ganymede": {
+      "name": "Ganymede",
+      "parent": "jupiter",
+      "type": "moon",
+      "mass": 0.0248,
+      "radius": 0.00000283,
+      "color": "#808080",
+      "orbital_elements": {
+        "a": 0.00715,
+        "e": 0.0013,
+        "i": 0.21,
+        "Omega": 169.53,
+        "omega": 192.42,
+        "M0": 221.63,
+        "epoch": 2451545.0,
+        "n": 50.3176
+      }
+    },
+    "jupiter_callisto": {
+      "name": "Callisto",
+      "parent": "jupiter",
+      "type": "moon",
+      "mass": 0.0187,
+      "radius": 0.00000239,
+      "color": "#696969",
+      "orbital_elements": {
+        "a": 0.01260,
+        "e": 0.0074,
+        "i": 0.20,
+        "Omega": 189.54,
+        "omega": 52.64,
+        "M0": 56.20,
+        "epoch": 2451545.0,
+        "n": 21.4713
+      }
+    },
+    "saturn_titan": {
+      "name": "Titan",
+      "parent": "saturn",
+      "type": "moon",
+      "mass": 0.0225,
+      "radius": 0.00000252,
+      "color": "#FFA500",
+      "orbital_elements": {
+        "a": 0.01222,
+        "e": 0.0292,
+        "i": 0.33,
+        "Omega": 25.60,
+        "omega": 185.76,
+        "M0": 182.64,
+        "epoch": 2451545.0,
+        "n": 22.5769
+      }
+    },
+    "saturn_rhea": {
+      "name": "Rhea",
+      "parent": "saturn",
+      "type": "moon",
+      "mass": 0.00028,
+      "radius": 0.000000765,
+      "color": "#B0C4DE",
+      "orbital_elements": {
+        "a": 0.00352,
+        "e": 0.0010,
+        "i": 0.35,
+        "Omega": 353.26,
+        "omega": 1.37,
+        "M0": 239.97,
+        "epoch": 2451545.0,
+        "n": 622.4577
+      }
+    },
+    "saturn_iapetus": {
+      "name": "Iapetus",
+      "parent": "saturn",
+      "type": "moon",
+      "mass": 0.000026,
+      "radius": 0.000000375,
+      "color": "#808080",
+      "orbital_elements": {
+        "a": 0.02362,
+        "e": 0.0283,
+        "i": 27.47,
+        "Omega": 318.05,
+        "omega": 276.59,
+        "M0": 41.47,
+        "epoch": 2451545.0,
+        "n": 4.5379
+      }
+    },
+    "saturn_enceladus": {
+      "name": "Enceladus",
+      "parent": "saturn",
+      "type": "moon",
+      "mass": 0.00007,
+      "radius": 0.00000025,
+      "color": "#FFFFFF",
+      "orbital_elements": {
+        "a": 0.00238,
+        "e": 0.0047,
+        "i": 0.02,
+        "Omega": 91.60,
+        "omega": 254.30,
+        "M0": 342.84,
+        "epoch": 2451545.0,
+        "n": 262.7318
+      }
+    },
+    "saturn_dione": {
+      "name": "Dione",
+      "parent": "saturn",
+      "type": "moon",
+      "mass": 0.00018,
+      "radius": 0.000000387,
+      "color": "#E8E8E8",
+      "orbital_elements": {
+        "a": 0.00377,
+        "e": 0.0022,
+        "i": 0.02,
+        "Omega": 200.28,
+        "omega": 354.93,
+        "M0": 42.92,
+        "epoch": 2451545.0,
+        "n": 131.5344
+      }
+    },
+    "uranus_titania": {
+      "name": "Titania",
+      "parent": "uranus",
+      "type": "moon",
+      "mass": 0.000035,
+      "radius": 0.000000395,
+      "color": "#AAAAAA",
+      "orbital_elements": {
+        "a": 0.00436,
+        "e": 0.0011,
+        "i": 0.34,
+        "Omega": 167.27,
+        "omega": 241.84,
+        "M0": 88.97,
+        "epoch": 2451545.0,
+        "n": 41.3515
+      }
+    },
+    "uranus_oberon": {
+      "name": "Oberon",
+      "parent": "uranus",
+      "type": "moon",
+      "mass": 0.000029,
+      "radius": 0.000000385,
+      "color": "#999999",
+      "orbital_elements": {
+        "a": 0.00584,
+        "e": 0.0014,
+        "i": 0.10,
+        "Omega": 20.08,
+        "omega": 268.91,
+        "M0": 356.59,
+        "epoch": 2451545.0,
+        "n": 26.7394
+      }
+    },
+    "uranus_umbriel": {
+      "name": "Umbriel",
+      "parent": "uranus",
+      "type": "moon",
+      "mass": 0.000014,
+      "radius": 0.000000292,
+      "color": "#696969",
+      "orbital_elements": {
+        "a": 0.00267,
+        "e": 0.0005,
+        "i": 0.13,
+        "Omega": 346.41,
+        "omega": 12.25,
+        "M0": 274.06,
+        "epoch": 2451545.0,
+        "n": 84.2761
+      }
+    },
+    "uranus_ariel": {
+      "name": "Ariel",
+      "parent": "uranus",
+      "type": "moon",
+      "mass": 0.0000135,
+      "radius": 0.000000229,
+      "color": "#CCCCCC",
+      "orbital_elements": {
+        "a": 0.00192,
+        "e": 0.0012,
+        "i": 0.31,
+        "Omega": 151.43,
+        "omega": 213.27,
+        "M0": 218.76,
+        "epoch": 2451545.0,
+        "n": 142.2346
+      }
+    },
+    "neptune_triton": {
+      "name": "Triton",
+      "parent": "neptune",
+      "type": "moon",
+      "mass": 0.00358,
+      "radius": 0.000001352,
+      "color": "#E0FFFF",
+      "orbital_elements": {
+        "a": 0.00237,
+        "e": 0.0000,
+        "i": 157.36,
+        "Omega": 200.16,
+        "omega": 299.84,
+        "M0": 71.76,
+        "epoch": 2451545.0,
+        "n": 61.2790
+      }
+    }
+  },
+  "asteroids": {
+    "ceres": {
+      "name": "Ceres",
+      "type": "dwarf_planet",
+      "mass": 0.000157,
+      "radius": 0.000388,
+      "color": "#A9A9A9",
+      "orbital_elements": {
+        "a": 2.7687,
+        "e": 0.0756,
+        "i": 10.593,
+        "Omega": 80.329,
+        "omega": 73.115,
+        "M0": 357.21,
+        "epoch": 2451545.0,
+        "n": 0.2141
+      }
+    },
+    "vesta": {
+      "name": "Vesta",
+      "type": "asteroid",
+      "mass": 0.000004,
+      "radius": 0.00026,
+      "color": "#8B8680",
+      "orbital_elements": {
+        "a": 2.3619,
+        "e": 0.0889,
+        "i": 7.141,
+        "Omega": 103.874,
+        "omega": 150.877,
+        "M0": 356.02,
+        "epoch": 2451545.0,
+        "n": 0.2709
+      }
+    },
+    "pallas": {
+      "name": "Pallas",
+      "type": "asteroid",
+      "mass": 0.0000021,
+      "radius": 0.000272,
+      "color": "#696969",
+      "orbital_elements": {
+        "a": 2.7726,
+        "e": 0.2315,
+        "i": 34.842,
+        "Omega": 172.888,
+        "omega": 310.417,
+        "M0": 324.20,
+        "epoch": 2451545.0,
+        "n": 0.2135
+      }
+    },
+    "juno": {
+      "name": "Juno",
+      "type": "asteroid",
+      "mass": 0.0000003,
+      "radius": 0.000127,
+      "color": "#808080",
+      "orbital_elements": {
+        "a": 2.6711,
+        "e": 0.2561,
+        "i": 12.992,
+        "Omega": 171.050,
+        "omega": 248.539,
+        "M0": 342.25,
+        "epoch": 2451545.0,
+        "n": 0.2886
+      }
+    }
+  },
+  "comets": {
+    "halley": {
+      "name": "Halley's Comet",
+      "type": "comet",
+      "mass": 0.000001,
+      "radius": 0.00005,
+      "color": "#FFFFFF",
+      "orbital_elements": {
+        "a": 17.834,
+        "e": 0.9671,
+        "i": 162.262,
+        "Omega": 111.465,
+        "omega": 58.42,
+        "M0": 38.38,
+        "epoch": 2451871.185,
+        "n": 0.01603
+      }
+    },
+    "borrelly": {
+      "name": "Borrelly's Comet",
+      "type": "comet",
+      "mass": 0.0000001,
+      "radius": 0.000025,
+      "color": "#E8E8E8",
+      "orbital_elements": {
+        "a": 3.5019,
+        "e": 0.6247,
+        "i": 30.331,
+        "Omega": 75.783,
+        "omega": 357.291,
+        "M0": 152.47,
+        "epoch": 2451845.0,
+        "n": 0.1814
+      }
+    },
+    "tempel_tuttle": {
+      "name": "Tempel-Tuttle",
+      "type": "comet",
+      "mass": 0.0000001,
+      "radius": 0.00003,
+      "color": "#F5F5F5",
+      "orbital_elements": {
+        "a": 10.2953,
+        "e": 0.8912,
+        "i": 162.490,
+        "Omega": 235.269,
+        "omega": 172.133,
+        "M0": 7.39,
+        "epoch": 2450916.5,
+        "n": 0.0277
+      }
+    }
+  },
+  "kuiper_belt": {
+    "pluto": {
+      "name": "Pluto",
+      "type": "dwarf_planet",
+      "mass": 0.0000218,
+      "radius": 0.00000186,
+      "color": "#8B7355",
+      "orbital_elements": {
+        "a": 39.4817,
+        "e": 0.2488,
+        "i": 17.1604,
+        "Omega": 110.2998,
+        "omega": 113.8745,
+        "M0": 14.8862,
+        "epoch": 2451545.0,
+        "n": 0.0039
+      }
+    },
+    "eris": {
+      "name": "Eris",
+      "type": "dwarf_planet",
+      "mass": 0.00002,
+      "radius": 0.00000182,
+      "color": "#A9A9A9",
+      "orbital_elements": {
+        "a": 67.6681,
+        "e": 0.4406,
+        "i": 44.0376,
+        "Omega": 151.4347,
+        "omega": 151.4347,
+        "M0": 203.2453,
+        "epoch": 2451545.0,
+        "n": 0.00193
+      }
+    },
+    "makemake": {
+      "name": "Makemake",
+      "type": "dwarf_planet",
+      "mass": 0.0000057,
+      "radius": 0.00000134,
+      "color": "#D3D3D3",
+      "orbital_elements": {
+        "a": 39.5160,
+        "e": 0.1580,
+        "i": 28.9646,
+        "Omega": 79.3808,
+        "omega": 297.2405,
+        "M0": 148.4734,
+        "epoch": 2451545.0,
+        "n": 0.00385
+      }
+    },
+    "haumea": {
+      "name": "Haumea",
+      "type": "dwarf_planet",
+      "mass": 0.0000068,
+      "radius": 0.000000979,
+      "color": "#C0C0C0",
+      "orbital_elements": {
+        "a": 43.3313,
+        "e": 0.1897,
+        "i": 28.2140,
+        "Omega": 119.5465,
+        "omega": 240.8102,
+        "M0": 204.8612,
+        "epoch": 2451545.0,
+        "n": 0.00329
+      }
+    }
+  }
+}
