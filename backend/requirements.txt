@@ -1,0 +1,6 @@
+Flask==2.3.3
+Waitress==2.1.2
+numpy==1.24.3
+astropy==5.3.4
+requests==2.31.0
+python-dotenv==1.0.0
